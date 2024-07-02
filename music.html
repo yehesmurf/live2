@@ -1,0 +1,101 @@
+<script>
+    function play1() {
+        var audio = new Audio('Music/pew.mp3');
+        audio.play();
+    }
+
+    function play2() {
+        var audio = new Audio('Music/1-airhorn.wav');
+        audio.play();
+    }
+
+    function play3() {
+        var audio = new Audio('Music/30-djchicken.wav');
+        audio.play();
+    }
+
+    function play4() {
+        var audio = new Audio('Music/99-djchickenfast.mp3');
+        audio.play();
+    }
+
+    function play6() {
+        var audio = new Audio('Music/199-ajojing.mp3');
+        audio.play();
+    }
+
+    function play7() {
+        var audio = new Audio('Music/299-dj.mp3');
+        audio.play();
+}
+
+    function play12() {
+        var audio = new Audio('Music/gta.mp3');
+        audio.play();
+    }
+
+    function play13() {
+        var audio = new Audio('Music/rolling.mp3');
+        audio.play();
+    }
+    var clicks1 = 0;
+
+    function onClick1() {
+    clicks1 += 1;
+    document.getElementById("clicks1").innerHTML = clicks1;
+    };
+
+    var clicks2 = 0;
+
+    function onClick2() {
+    clicks2 += 1;
+    document.getElementById("clicks2").innerHTML = clicks2;
+    };
+
+    var clicks3 = 0;
+
+    function onClick3() {
+    clicks3 += 1;
+    document.getElementById("clicks3").innerHTML = clicks3;
+    };
+
+    var clicks4 = 0;
+
+    function onClick4() {
+    clicks4 += 1;
+    document.getElementById("clicks4").innerHTML = clicks4;
+    };
+
+    var clicks5 = 0;
+
+    function onClick5() {
+    clicks5 += 1;
+    document.getElementById("clicks5").innerHTML = clicks5;
+    };
+
+    // function submitPoll(id){
+    //   document.getElementById("votebutton").disabled = true;
+    //   setTimeout(function(){document.getElementById("votebutton").disabled = false;},800);
+    // }
+
+    function submitPoll2(id){
+      document.getElementById("votebutton2").disabled = true;
+      setTimeout(function(){document.getElementById("votebutton2").disabled = false;},1000);
+    }
+    
+</script>
+<button onclick="play1()">TAP TAP</button>
+<button onclick="play2(),onClick1(),submitPoll2()" id="votebutton2">1 koin - AIRHORN : <b id="clicks1">0</b></button>
+<button onclick="play3(),onClick2()">30 koin - DANCE : <b id="clicks2">0</b></button>
+==================================================
+==================================================
+<button onclick="play4(),onClick3()">99 koin - BALL SHOOT : <b id="clicks3">0</b></button>
+==================================================
+==================================================
+<button onclick="play6(),onClick4()">199 koin - DUNK TANK 1X : <b id="clicks4">0</b></button>
+<button onclick="play7(),onClick5()">299 koin - DUNK TANK 2X: <b id="clicks5">0</b></button>
+=====================================================
+=====================================================
+<button onclick="play12()">TEKNIS</button>
+<button onclick="play13()">ROLLING</button>
+<h1>Copy disini : @pepenxyz</h1>
