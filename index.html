@@ -38,6 +38,14 @@
         var audio = new Audio('Music/rolling.mp3');
         audio.play();
     }
+
+    function play14() {
+        var audio = new Audio('Music/warkop.mp3');
+        audio.play();
+        audio.volume = 0.1;
+        audio.loop=true;
+    }
+    
     var clicks1 = 0;
 
     function onClick1() {
@@ -98,4 +106,5 @@
 =====================================================
 <button onclick="play12()">TEKNIS</button>
 <button onclick="play13()">ROLLING</button>
+<button onclick="play14()">BACKSOUND</button>
 <h1>Copy disini : @pepenxyz</h1>
